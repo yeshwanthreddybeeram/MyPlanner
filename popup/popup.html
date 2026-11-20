@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Collection</title>
+    <link rel="stylesheet" href="../vendor/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-title">
+        <h1>Hotel Collection</h1>
+        <p id="count-label">0 hotels</p>
+      </div>
+      <div class="header-actions">
+        <button id="export-btn" type="button">Export</button>
+        <button id="share-btn" type="button" class="share-btn" title="Share this collection JSON on WhatsApp">Share</button>
+        <label class="import-label">
+          Import
+          <input id="import-input" type="file" accept="application/json,.json" hidden />
+        </label>
+        <button id="clear-btn" type="button" class="clear-btn" title="Remove all hotels in this collection">Clear</button>
+      </div>
+    </header>
+
+    <div class="collections-bar" aria-label="Your collections">
+      <div id="collections-scroll" class="collections-scroll"></div>
+      <button id="new-collection-btn" type="button" class="collection-new-btn" title="Add collection">
+        + New
+      </button>
+    </div>
+
+    <div id="map" aria-label="Collection map"></div>
+    <p id="map-hint" class="hint"></p>
+
+    <ul id="hotel-list"></ul>
+
+    <div class="bottom-actions">
+      <button id="reorder-btn" type="button" class="reorder-hint" title="Click to sort: loved on top, then normal, then disliked. Or drag hotels to rank.">
+        Reorder by vote · or drag &amp; drop
+      </button>
+      <button id="add-from-page-btn" type="button" class="add-collection-btn">
+        + Add to this collection
+      </button>
+    </div>
+
+    <footer>
+      <span id="status"></span>
+    </footer>
+
+    <script src="../vendor/leaflet/leaflet.js"></script>
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>
