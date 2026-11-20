@@ -96,3 +96,4 @@ MyPlanner/
 - The side panel map is your curated map only — it does not hide other pins on Google’s own map.
 - Scraping selectors can break when Google changes their DOM; scrape logic lives in `content.js`.
 - No server: Export / Share / Import are how you back up or move data between devices.
+# MyCollection
