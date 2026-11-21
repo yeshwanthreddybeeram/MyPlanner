@@ -420,7 +420,7 @@
 
   function styleLikeCheck(btn, checkBtn) {
     if (!checkBtn) {
-      btn.style.setProperty("background", "#00857d", "important");
+      btn.style.setProperty("background", "#FF5A5F", "important");
       btn.style.setProperty("color", "#fff", "important");
       return;
     }
@@ -428,7 +428,7 @@
     if (s.backgroundColor && s.backgroundColor !== "rgba(0, 0, 0, 0)") {
       btn.style.setProperty("background", s.backgroundColor, "important");
     } else {
-      btn.style.setProperty("background", "#00857d", "important");
+      btn.style.setProperty("background", "#FF5A5F", "important");
     }
     btn.style.setProperty("color", "#fff", "important");
     if (s.borderRadius) {

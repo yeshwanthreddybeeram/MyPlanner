@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy Policy — Hotel Collection</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #0f1419;
+        --text: #e8eef4;
+        --muted: #9aa8b6;
+        --accent: #ff5a5f;
+        --card: #1a2332;
+      }
+      body {
+        margin: 0;
+        font: 16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif;
+        background: var(--bg);
+        color: var(--text);
+      }
+      main {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 40px 20px 64px;
+      }
+      h1 {
+        font-size: 1.75rem;
+        letter-spacing: -0.02em;
+        margin: 0 0 8px;
+      }
+      h2 {
+        font-size: 1.1rem;
+        margin: 28px 0 8px;
+      }
+      p,
+      li {
+        color: var(--muted);
+      }
+      a {
+        color: var(--accent);
+      }
+      .meta {
+        font-size: 0.9rem;
+        margin-bottom: 28px;
+      }
+      ul {
+        padding-left: 1.2em;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Privacy Policy</h1>
+      <p class="meta">
+        <strong style="color: var(--text)">Hotel Collection</strong> Chrome
+        extension<br />
+        Last updated: 21 November 2026
+      </p>
+
+      <p>
+        This Privacy Policy describes how the Hotel Collection browser extension
+        (“the Extension”) handles information. By using the Extension, you agree
+        to this policy.
+      </p>
+
+      <h2>1. Summary</h2>
+      <p>
+        Hotel Collection is a local-only tool. It helps you save hotels from
+        Google Hotels / Google Maps into personal collections on your device,
+        view them on a map, and export or share them as a JSON file that you
+        control. The Extension does not require an account and does not operate
+        a backend that receives your collection data.
+      </p>
+
+      <h2>2. Data we handle</h2>
+      <p>When you choose to add a hotel, the Extension may read and store:</p>
+      <ul>
+        <li>
+          <strong>Website content</strong> from the Google Hotels/Maps page you
+          are viewing (for example hotel name, rating, price text, image URL,
+          and page URL).
+        </li>
+        <li>
+          <strong>Place location coordinates</strong> for that hotel (latitude /
+          longitude), when available, so the hotel can be shown on your
+          collection map. This is the hotel’s place location, not continuous
+          tracking of your device GPS or IP address.
+        </li>
+        <li>
+          Optional notes, love/dislike votes, collection names, and list order
+          that you enter in the Extension.
+        </li>
+      </ul>
+      <p>We do not collect:</p>
+      <ul>
+        <li>Your name, email, or other personal identity details</li>
+        <li>Passwords or authentication credentials</li>
+        <li>Payment or financial information</li>
+        <li>Health information</li>
+        <li>Personal messages (email, chat, SMS)</li>
+        <li>A browse history of sites you visit over time</li>
+        <li>Keystrokes, mouse tracking, or network monitoring for analytics</li>
+      </ul>
+
+      <h2>3. How data is stored and used</h2>
+      <ul>
+        <li>
+          Collection data is stored in
+          <code>chrome.storage.local</code> on your device.
+        </li>
+        <li>
+          It is used only to provide Extension features: list, map, reorder,
+          notes, export, import, and share.
+        </li>
+        <li>
+          We do not sell your data, use it for advertising, or use it for credit
+          scoring or unrelated purposes.
+        </li>
+      </ul>
+
+      <h2>4. Sharing and transmission</h2>
+      <ul>
+        <li>
+          The Extension does not upload your collection to our servers (there is
+          no such server for this product).
+        </li>
+        <li>
+          <strong>Export / Share:</strong> If you use Export or Share, a JSON
+          file is created on your device. You choose where to send it (for
+          example WhatsApp, email, or Drive). That transfer is under your
+          control.
+        </li>
+        <li>
+          <strong>Map tiles:</strong> The side-panel map may request map images
+          from OpenStreetMap tile servers so pins can be displayed. Those
+          requests are for map imagery, not to send your hotel list.
+        </li>
+        <li>
+          The Extension does not include advertising or analytics SDKs.
+        </li>
+      </ul>
+
+      <h2>5. Permissions (why they are needed)</h2>
+      <ul>
+        <li><strong>storage</strong> — save collections on your device</li>
+        <li>
+          <strong>contextMenus</strong> — “Add to collection” in the right-click
+          menu
+        </li>
+        <li>
+          <strong>activeTab / scripting / tabs / host access</strong> — work on
+          Google Hotels/Maps pages when you add a hotel, inject the Add button,
+          and open saved hotels
+        </li>
+        <li><strong>sidePanel</strong> — show the collection UI beside the page</li>
+      </ul>
+      <p>
+        Host access is limited to Google Travel/Hotels, Google Maps, and
+        OpenStreetMap tile hosts used for the map.
+      </p>
+
+      <h2>6. Children’s privacy</h2>
+      <p>
+        The Extension is not directed at children under 13, and we do not
+        knowingly collect personal information from children.
+      </p>
+
+      <h2>7. Changes</h2>
+      <p>
+        We may update this Privacy Policy when the Extension changes. The “Last
+        updated” date at the top will be revised when that happens. Continued use
+        after an update means you accept the revised policy.
+      </p>
+
+      <h2>8. Contact</h2>
+      <p>
+        Questions about this Privacy Policy or the Extension:
+        <!-- Replace with your real contact email before publishing -->
+        <a href="mailto:REPLACE_WITH_YOUR_EMAIL@example.com"
+          >REPLACE_WITH_YOUR_EMAIL@example.com</a
+        >
+      </p>
+    </main>
+  </body>
+</html>

@@ -5,9 +5,9 @@
   --border: #2a3544;
   --text: #e8eef4;
   --muted: #8b9aab;
-  --accent: #0f766e;
-  --accent-hover: #0d9488;
-  --accent-soft: #5eead4;
+  --accent: #ff5a5f;
+  --accent-hover: #e0484d;
+  --accent-soft: #ff8a8e;
   --danger: #ef4444;
   --radius: 8px;
   --radius-pill: 999px;
@@ -101,12 +101,12 @@ header h1 {
 }
 
 .share-btn {
-  border-color: rgba(15, 118, 110, 0.45);
+  border-color: rgba(255, 90, 95, 0.45);
   color: var(--accent-soft);
 }
 
 .share-btn:hover {
-  background: rgba(15, 118, 110, 0.18);
+  background: rgba(255, 90, 95, 0.18);
 }
 
 .clear-btn {
@@ -177,7 +177,7 @@ header h1 {
 }
 
 .collection-chip.active {
-  background: rgba(15, 118, 110, 0.22);
+  background: rgba(255, 90, 95, 0.22);
   border-color: var(--accent);
   color: var(--accent-soft);
 }
@@ -195,7 +195,7 @@ header h1 {
 }
 
 .collection-chip.active .collection-chip-count {
-  color: #99f6e4;
+  color: #ffb3b6;
 }
 
 .collection-chip-delete {
@@ -240,7 +240,7 @@ header h1 {
   border-color: var(--accent);
   border-style: solid;
   color: var(--accent-soft);
-  background: rgba(15, 118, 110, 0.12);
+  background: rgba(255, 90, 95, 0.12);
 }
 
 /* —— Map —— */
@@ -458,7 +458,7 @@ header h1 {
   user-select: text;
   min-height: calc(1.35em * 3 + 12px);
   max-height: 140px;
-  box-shadow: 0 0 0 2px rgba(15, 118, 110, 0.2);
+  box-shadow: 0 0 0 2px rgba(255, 90, 95, 0.2);
 }
 
 .hotel-note::placeholder {
@@ -725,7 +725,7 @@ header h1 {
   color: #fff;
   font: 600 14px/1.2 var(--font);
   cursor: pointer;
-  box-shadow: 0 4px 14px rgba(15, 118, 110, 0.35);
+  box-shadow: 0 4px 14px rgba(255, 90, 95, 0.35);
   transition:
     background 0.15s ease,
     transform 0.12s ease,
